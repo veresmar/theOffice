@@ -1,0 +1,67 @@
+@font-face{
+  font-family: Impact;
+  src: url("/fonts/impact.ttf") format("truetype");
+}  
+
+/* NAVBAR */
+.container-fluid{
+  background-color:rgb(15, 17, 99);
+}
+.navbar-brand{
+  font-size: 40px;
+  font-family: Impact;
+  letter-spacing: 0.5px;
+}
+.form-control me-2:focus{
+  box-shadow: none;
+  border:none;
+}
+.btn-outline-success{
+  color:black;
+  background-color: rgba(199, 199, 199, 0.753);
+  border:none;
+}
+.btn-outline-success:hover{
+  color:white;
+  background-color:black;
+  border:none;
+}
+
+
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  letter-spacing: -0.4px;
+  font-weight: 530;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+/* CARDS */
+.cards_wrapper{
+  display: flex;
+  justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.mb-3{
+  border:2px solid rgb(214, 213, 213);
+  padding: 5px;
+}
+
+.card-title{
+  font-family: Helvetica, sans-serif;
+  font-weight: 750;
+  font-size: 28px;
+}
+.btn-primary{
+  background-color:rgb(136, 133, 133);
+  border:none;
+  padding: 0;
+  margin-top: 15px;
+}
+.btn-primary:hover{
+  background-color:rgb(15, 17, 99);
+  border:none;
+}
